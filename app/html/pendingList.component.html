@@ -1,0 +1,5 @@
+<h2>To Do</h2>
+<div class="pending-tasks">
+  <task-item *ngFor="let task of (taskList | statusFilter:false)"  [task]="task"></task-item>
+</div>
+<span class="taskTrack">You have {{(taskList|statusFilter:false).length}} task(s) remaining</span>

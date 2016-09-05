@@ -1,0 +1,7 @@
+<div class="taskBox">
+  <label>
+    <a *ngIf="!task.status" href="#" class="btn btn-default btn-circle" (click)="updateDone(task.id)"><span class="glyphicon glyphicon-ok unchecked"></span></a>
+  </label>
+  <h3>{{task.taskName}}</h3>
+  <a *ngIf="!task.status" href="#" class="btn btn-default btn-lg pull-right deleteBtn" (click)="deleteDone(task.id)"><span class="glyphicon glyphicon-trash"></span></a>
+</div>

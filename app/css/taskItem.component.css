@@ -1,0 +1,23 @@
+input, h3 {
+  display: inline-block;
+}
+h3 {
+  margin: 10px 10px;
+}
+.taskBox {
+  background-color: #576573;
+  border-radius: 5px;
+  margin: 5px;
+}
+.btn-circle {
+  margin: -5px 0 5px 10px;
+}
+.deleteBtn {
+  background: none;
+  border: none;
+  margin-top: 5px;
+  color:  #A6B1B8;
+}
+.deleteBtn:hover {
+  color: white;
+}

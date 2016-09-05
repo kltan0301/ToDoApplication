@@ -1,0 +1,5 @@
+<h2>Completed</h2>
+<div class="pending-tasks">
+  <task-item *ngFor="let task of (taskList | statusFilter:true)"  [task]="task"></task-item>
+</div>
+<span class="taskTrack">You have completed {{(taskList|statusFilter:true).length}} task(s) </span>
